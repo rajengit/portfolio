@@ -23,7 +23,7 @@ export default function Skills() {
                 }} 
                 viewport={{ once: true }}
               
-                 >Top Skills</motion.h1>
+                 >Top Skillss</motion.h1>
                 <motion.ul className={styles.list}
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
