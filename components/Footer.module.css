@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    max-width: 900px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5;
+    position: sticky;
+    bottom: 0;
+}
+.container ul li {
+    list-style: none;
+    text-align: center;
+}

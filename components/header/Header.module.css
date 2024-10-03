@@ -1,0 +1,33 @@
+.nav{
+    /* background-color: red; */
+     position: static;
+     top: 0px;
+     width: 100%;
+    
+}
+.nav ul{
+    /* background-color: yellow; */
+    
+    display: flex;
+   max-width:50%;
+    margin: auto;
+    justify-content: space-around;
+  
+}
+
+.nav ul li{
+  
+    /* background-color: aqua; */
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    
+    
+}
+
+.nav ul li a {
+    /* background-color: pink; */
+    text-decoration: none;
+}
+.header{
+}

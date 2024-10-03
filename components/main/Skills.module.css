@@ -1,0 +1,27 @@
+.container{
+    /* background-color: rgb(253, 164, 164); */
+    padding: 2rem;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2rem;
+   text-align: center;
+   
+}
+.container h1{
+    width: 400px;
+}
+
+.list li{
+    
+    list-style: none;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
